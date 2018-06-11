@@ -1,0 +1,45 @@
+{
+  "name": "hapijs-boilerplate",
+  "version": "1.0.0",
+  "description": "Simple Hapi.js Boilerplate with Mongoose",
+  "author": "Varun",
+  "license": "UNLICENSED",
+  "main": "server.js",
+  "engines": {
+    "node": ">=8.9.4",
+    "npm": ">=5.3.0",
+    "yarn": ">=0.27.5"
+  },
+  "scripts": {
+    "start": "node server.js",
+    "lint": "eslint *.js",
+    "precommit": "yarn lint"
+  },
+  "dependencies": {
+    "boom": "^7.2.0",
+    "chance": "^1.0.13",
+    "config": "^1.30.0",
+    "eslint-config-airbnb": "^16.1.0",
+    "eslint-plugin-jsx-a11y": "^6.0.3",
+    "eslint-plugin-react": "^7.4.0",
+    "hapi": "^17.2.2",
+    "hapi-auto-routes": "^1.1.0",
+    "hapi-swagger": "^9.1.1",
+    "inert": "^5.1.0",
+    "joi": "^13.1.2",
+    "jsonfile": "^4.0.0",
+    "lodash": "^4.17.5",
+    "moment": "^2.21.0",
+    "mongoload": "^0.1.0",
+    "mongoose": "^5.1.4",
+    "mongoose-timestamp": "^0.6.0",
+    "vision": "^5.3.1",
+    "winston": "^3.0.0-rc2"
+  },
+  "devDependencies": {
+    "eslint": "^4.9.0",
+    "eslint-config-airbnb-base": "^11.2.0",
+    "eslint-plugin-import": "^2.2.0",
+    "husky": "0.14.3"
+  }
+}
